@@ -2,8 +2,8 @@ import { BigNumberish } from '@ethersproject/bignumber';
 import { formatUnits } from '@ethersproject/units';
 import { Multicaller } from '../../utils';
 
-export const author = 'bonustrack';
-export const version = '0.1.1';
+export const author = 'gnosis';
+export const version = '0.0.1';
 
 const abiERC20 = [
   'function balanceOf(address account) external view returns (uint256)'
