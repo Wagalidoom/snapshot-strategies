@@ -492,6 +492,7 @@ import * as edenOnlineOverride from './eden-online-override';
 import * as forteStaking from './forte-staking';
 import * as overtime from './overtime';
 import * as orderlyStakedOrder from './orderly-staked-order';
+import * as osgno from './osgno';
 
 import { DEFAULT_SUPPORTED_PROTOCOLS } from '../constants';
 
@@ -997,7 +998,8 @@ const strategies = {
   'eden-online-override': edenOnlineOverride,
   'forte-staking': forteStaking,
   overtime,
-  'orderly-staked-order': orderlyStakedOrder
+  'orderly-staked-order': orderlyStakedOrder,
+  'osgno': osgno
 };
 
 Object.keys(strategies).forEach(function (strategyName) {
